@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.lulusanActivity">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logolulusan"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/logomt"/>
+
+        <TextView
+            android:id="@+id/textprof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile Lulusan"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/logolulusan"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/textBUMN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="BUMN :"
+            android:layout_below="@id/textprof"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/textbumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textBUMN"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:text="Industri energy (PLN, Indonesia Power, dll)  ||  Industri pengolahan mineral (INALUM, ANTAM, PT. Timah, Bukit Asam, dll)  ||  Industri Engineering, Procurement, Construction and Installation (Rekayasa Industri, Wika, dll)  ||  Industri transportasi (KAI, INKA, PT. PAL, Pelindo, dll)  ||  Indutri Petrokimia (Holcim,	Oil and Gas (Pertamina, PGN, dll)  ||  Manufaktur (Pindad, PTPN, dll)  ||  Lembaga Penelitian"/>
+
+        <TextView
+            android:id="@+id/textSWASTA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="SWASTA :"
+            android:layout_below="@id/textbumn"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textSWASTA"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:text="Industri energy (Total, Exxon Mobile, Conoco Phillips, Chevron, Medco, dll)  ||  Industri elektronik (Sandisk, Infineon)  ||  Industri pengolahan mineral (Newmont, Freeport, PAMA, Berau Coal, dll)  ||  Manufaktur (LEN, Astra, United Tractor, Vale, Komatsu, Michelin, Bridgestone, dll)"/>
+    </RelativeLayout>
+
+
+</ScrollView>

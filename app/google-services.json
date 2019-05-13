@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040989209325",
+    "firebase_url": "https://pocketmaterail.firebaseio.com",
+    "project_id": "pocketmaterail",
+    "storage_bucket": "pocketmaterail.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040989209325:android:e81bec246a82ba9e",
+        "android_client_info": {
+          "package_name": "com.example.android.tugasbesarteknikmaterial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040989209325-imto7ntnq4uv0mltokmmq16n0attgmjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcrDRLJTe6dBXSJUzcP6Z2LiDd4mbQMqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040989209325-imto7ntnq4uv0mltokmmq16n0attgmjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

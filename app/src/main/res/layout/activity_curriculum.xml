@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.curriculumActivity">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logocurri"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/logomt"/>
+
+        <TextView
+            android:id="@+id/kur"
+            android:layout_below="@id/logocurri"
+            android:paddingTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Kurikulum"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_below="@id/kur"
+            android:layout_centerHorizontal="true"
+            android:layout_width="350dp"
+            android:layout_height="1000dp"
+            android:background="@drawable/curriculum"/>
+
+    </RelativeLayout>
+
+</ScrollView>

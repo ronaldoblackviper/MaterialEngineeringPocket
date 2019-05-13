@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".Activities.register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_02">
+
+        <ImageView
+            android:id="@+id/regaddimage"
+            android:background="#11000000"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/addgambar" />
+
+        <EditText
+            android:id="@+id/regemail"
+            android:hint="Email"
+            android:textColorHint="#ffffff"
+            android:paddingLeft="6dp"
+            android:drawablePadding="1dp"
+            android:drawableLeft="@drawable/email"
+            android:textColor="#ffffff"
+            android:background="#11000000"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/regaddimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/regusername"
+            android:hint="Username"
+            android:textColorHint="#ffffff"
+            android:paddingLeft="6dp"
+            android:drawablePadding="1dp"
+            android:drawableLeft="@drawable/username"
+            android:textColor="#ffffff"
+            android:background="#11000000"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/regemail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/regpassword"
+            android:hint="Password"
+            android:textColorHint="#ffffff"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:paddingRight="28dp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/password"
+            android:background="#11000000"
+            android:textColor="#ffffff"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@id/regusername"
+            android:layout_alignStart="@id/regusername"
+            android:layout_below="@id/regusername"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/titype"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_alignTop="@+id/regpassword"
+            android:layout_alignBottom="@+id/regpassword"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/hide"
+            android:paddingRight="10dp" />
+
+        <EditText
+            android:id="@+id/regpasswordconfirm"
+            android:hint="Confirm Password"
+            android:textColorHint="#ffffff"
+            android:paddingLeft="10dp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/confirmpass"
+            android:background="#11000000"
+            android:textColor="#ffffff"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@id/regusername"
+            android:layout_alignStart="@id/regusername"
+            android:layout_below="@id/regpassword"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:id="@+id/hide2"
+            android:layout_alignTop="@+id/regpasswordconfirm"
+            android:layout_alignBottom="@+id/regpasswordconfirm"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginEnd="64dp"
+            android:background="@drawable/hide"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"/>
+
+        <Button
+            android:id="@+id/btn_regis"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/regpasswordconfirm"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_rectangle_green"
+            android:text="@string/registration"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/regProgressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btn_regis"
+            android:layout_alignLeft="@+id/btn_regis"
+            android:layout_alignTop="@+id/btn_regis"
+            android:layout_alignEnd="@+id/btn_regis"
+            android:layout_alignRight="@+id/btn_regis"
+            android:layout_alignBottom="@+id/btn_regis"
+            android:layout_marginStart="123dp"
+            android:layout_marginLeft="123dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="129dp"
+            android:layout_marginRight="129dp"
+            android:layout_marginBottom="0dp" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.visimisiActivity">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logovimi"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/logomt"/>
+
+        <TextView
+            android:id="@+id/textvimi"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logovimi"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:text="Visi: “Menjadi Program Studi yang unggul dan berkualitas secara nasional maupun internasional dalam mengembangkan ilmu pengetahuan dan teknologi di bidang Teknik Material dengan memanfaatkan sumber daya alam dan sumber daya manusia di wilayah Sumatera untuk mendukung pembangunan bangsa”"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textvimi"
+            android:layout_centerHorizontal="true"
+            android:lineSpacingExtra="2dp"
+            android:layout_centerVertical="true"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:text="Misi: “Menghasilkan lulusan yang berkualitas dan memiliki kompetensi di bidang rekayasa dan teknologi material”"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>
